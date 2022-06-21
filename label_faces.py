@@ -104,11 +104,13 @@ def watch_video(video_path):
         
             # Display the resulting frame
             cv2.imshow('Frame', frame)
+            cv2.setWindowProperty('Frame', cv2.WND_PROP_TOPMOST, 1)
         
             # Press Q on keyboard to  exit
             if cv2.waitKey(25) & 0xFF == ord('q'):
                 break
 
+            # frame rate is 4fps                    
             time.sleep(.25)
         
         # Break the loop
