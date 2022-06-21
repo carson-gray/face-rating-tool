@@ -1,0 +1,1 @@
+{'joke': 'identity', 'video': 1, 'audio': 0, 'classification': 1, 'performance_tag_condition': 'adaptive', 'joke_has_tag': True}

@@ -1,0 +1,1 @@
+{'joke': 'chess', 'video': 0, 'audio': -1, 'classification': 0, 'performance_tag_condition': 'none', 'joke_has_tag': True}
